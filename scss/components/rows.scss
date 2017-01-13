@@ -1,0 +1,93 @@
+.rows {
+		padding-top: (70 / 1170 * 100%);
+	&-title {
+		text-transform: uppercase;
+		font-family: 'Lato';
+		font-size: 16px;
+		font-weight: 700;
+		padding-bottom: 24px;
+	}
+	&-logo {
+		padding: 0 0 27px;
+	}
+	&-desc {
+		color: #a3b1bf;
+		font-size: 14px;
+		font-weight: 400;
+	}
+	&-link {
+		color: #00bc9c;
+		font-size: 15px;
+		font-weight: 700;
+		font-family: $font-family-base;
+		padding-top: 18px;
+	}
+	span {
+		padding-left: 10px;
+
+}
+	&-form {
+		margin-top: 20px;
+		position: relative;
+		background: #586674;
+		border-radius: 2px;
+	}
+	&-button {
+		float: right;
+}
+	&-contant {
+		padding-right: 42px;
+	}
+
+}
+
+
+button {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	border: none;
+	text-transform: uppercase;
+
+}
+.sub {
+	background: #17a78b;
+    font-size: 13px;
+    padding: 7px 12px;
+    font-family:$font-family-base;
+	font-weight: 700;
+}
+span.icons {
+	padding: 0;
+	}
+.rows-name {
+		color: #758494;
+		font-family:$font-family-base;
+		font-size: 14px;
+		font-weight: 400;
+		padding-left: 10px;
+}
+.rows-name:hover{
+		color: #0c9a88;
+		}
+.row-active {
+	padding-left: 10px;
+	color: #0c9a88;
+}
+input[type="text"] {
+	width: 100%;
+	padding-right: 90px;
+	padding: 14px 0 14px 10px;
+	background: none;
+    border: none;
+    color: #fff;
+}
+.pt-20 {
+	padding-top: 20px;
+}
+.pd-2{
+	padding: 2px 2px 2px 2px;
+}
+.pb-73 {
+	padding-bottom: 73px;
+ }
